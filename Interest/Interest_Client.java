@@ -13,7 +13,7 @@ public class Interest_Client {
 		double ans = c1.simple_interest(principle, rate, time);
 		System.out.println(ans);
 		double ans1 = c1.compound_interest(principle, rate, time, n);
-		System.out.println(ans1);
+		System.out.printf("%.4f\n", ans1);
 		reader.close();
 	}
 }
