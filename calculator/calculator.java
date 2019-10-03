@@ -39,7 +39,20 @@ public class calculator {
 		case '/':
 			output = num1 / num2;
 			break;
+
+			/**
+			 * find the modulo of two number
+			 * @param num1
+			 * @param num2
+			 * @ return double modulo of two number 
+			 */
+
+
+		case '%':
+			output=num1%num2;
+			break;
 		}
+
 		return output;
 	}
 }
